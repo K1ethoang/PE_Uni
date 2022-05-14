@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+table {
+  width: 60%;
+}
+
+table,
+td {
+  border: 2px outset #cccc;
+}
+
+.col-1 {
+  border: 1px solid purple;
+  font-size: 20px;
+  text-align: center;
+}
+
+.col-2 a {
+  color: #000;
+  text-decoration: none;
+  float: right;
+}
+
+.col-21 {
+  background-color: lightblue;
+}
+
+.col-22 {
+  background-color: lightpink;
+}
+
+.col-23 {
+  background-color: darkgoldenrod;
+}

@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  width: 600px;
+  margin: auto;
+}
+
+form {
+  color: #fff;
+  background-color: #356aa0;
+  height: auto;
+  padding: 2px;
+}
+
+fieldset {
+  margin: 20px;
+  border: 2px solid #fff;
+  height: 100%;
+  padding: 16px;
+}
+
+legend {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+table {
+  font-size: 18px;
+}
+
+td {
+  padding: 8px;
+}
+
+.label {
+  text-align: right;
+}
+
+.nav {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
