@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  margin: auto;
+}
+
+.pull-left {
+  min-width: 100px;
+}
+
+.scale {
+  transform: scale(1.2);
+}
+
+.form-container {
+  font-size: 20px;
+  background-color: blueviolet;
+  padding: 32px;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.form__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.form__heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: underline;
+  padding-bottom: 16px;
+}
+
+.form-container input {
+  padding: 4px;
+}
+
+.form__btn {
+  background-color: lightskyblue;
+  border: none;
+  cursor: pointer;
+}
+
+.form__btn:hover {
+  background-color: #fff;
+}

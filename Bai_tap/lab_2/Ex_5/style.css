@@ -21,7 +21,6 @@ form {
 fieldset {
   margin: 20px;
   border: 2px solid #fff;
-  height: 100%;
   padding: 16px;
 }
 
@@ -34,16 +33,36 @@ table {
   font-size: 18px;
 }
 
+tr {
+  margin: auto;
+}
+
 td {
   padding: 8px;
 }
 
-.label {
-  text-align: right;
+input,
+select {
+  border-radius: 3px;
+  border: none;
+  padding: 4px;
 }
 
 .nav {
   font-size: 18px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  flex-direction: row;
+}
+
+.nav a {
+  font-size: 20px;
+  color: #fff;
+  background-color: #96b129;
+  border-radius: 50px;
+  box-shadow: 1px 1px 6px #000;
+  padding: 6px 12px;
+  margin: 0 8px;
 }

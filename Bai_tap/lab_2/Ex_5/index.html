@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a1a8e6198a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <p>Hoàng Gia Kiệt - 6251071049</p>
@@ -42,9 +46,9 @@
                 <option value="Option 2">Option 2</option>
                 <option value="Option 3">Option 3</option>
               </select>
-              <input type="radio" name="degree" />
+              <input type="radio" name="degree" style="margin-left: 10px" />
               Pursuing
-              <input type="radio" name="degree" />
+              <input type="radio" name="degree" style="margin-left: 10px" />
               Completed
             </td>
           </tr>
@@ -82,12 +86,20 @@
           <tr>
             <td class="label">Your Website Or Blog:</td>
             <td>
-              <input type="url" />
+              <input type="url" placeholder="http://" />
             </td>
           </tr>
         </table>
       </fieldset>
-      <div class="nav">Step 2</div>
+      <div class="nav">
+        <a href="#">
+          <i class="fa-solid fa-caret-left"></i>
+        </a>
+        <div class="nav__text">Step 2</div>
+        <a href="#">
+          <i class="fa-solid fa-caret-right"></i>
+        </a>
+      </div>
     </form>
   </body>
 </html>
