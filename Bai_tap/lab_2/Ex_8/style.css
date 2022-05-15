@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  margin: auto;
+}
+
+fieldset,
+legend,
+input,
+textarea,
+select {
+  border: 2px solid palevioletred;
+}
+
+fieldset {
+  font-size: 18px;
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+}
+
+legend {
+  background-color: orange;
+  padding: 4px;
+  color: #fff;
+}
+
+td {
+  padding: 4px;
+}
+
+.col-1 {
+  text-align: right;
+}
+
+input,
+select,
+textarea {
+  background-color: #fee3ac;
+  padding: 0 4px;
+  margin-left: 8px;
+}
+
+.cus-file-upload {
+  background-color: #cccc;
+  border: 2px outset lightskyblue;
+  border-radius: 3px;
+  padding: 2px 8px;
+  cursor: pointer;
+}

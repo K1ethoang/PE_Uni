@@ -42,6 +42,7 @@ body {
   font-weight: 600;
   text-decoration: underline;
   padding-bottom: 16px;
+  text-align: center;
 }
 
 .form-container input {
@@ -52,6 +53,7 @@ body {
   background-color: lightskyblue;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .form__btn:hover {

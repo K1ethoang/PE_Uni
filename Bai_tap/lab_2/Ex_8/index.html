@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Hoàng Gia Kiệt - 6251071049</p>
+
+    <fieldset>
+      <legend>This is my form</legend>
+      <table>
+        <tr>
+          <td class="col-1">Email</td>
+          <td>
+            <input class="bg" type="email" />
+          </td>
+        </tr>
+        <tr>
+          <td class="col-1">Password:</td>
+          <td>
+            <input type="password" />
+          </td>
+        </tr>
+        <tr>
+          <td class="col-1">Confirm Password:</td>
+          <td>
+            <input type="password" />
+          </td>
+        </tr>
+        <tr>
+          <td class="col-1">Upload Your Picture:</td>
+          <td>
+            <input type="text" />
+            <label for="file-upload" class="cus-file-upload">
+              <output for="file-upload"></output>
+              Browse...
+              <input id="file-upload" style="display: none" type="file" />
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-1">Gender:</td>
+          <td>
+            <input type="radio" name="gender" />
+            <label for="">Male</label>
+            <input type="radio" name="gender" />
+            <label for="">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-1">Select Country:</td>
+          <td>
+            <select name="country" style="width: 130px">
+              <option value="Vietnam">Vietnam</option>
+              <option value="Japan">Japan</option>
+              <option value="USA">USA</option>
+              <option value="United Kingdom">United Kingdom</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-1">Hobby:</td>
+          <td>
+            <input type="checkbox" name="hobby" />
+            <label for="Hobby">Cricket</label>
+            <input type="checkbox" name="hobby" />
+            <label for="Hobby">Football</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-1" style="vertical-align: top">Address:</td>
+          <td rowspan="">
+            <textarea name="Address" cols="30" rows="8"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Submit" style="cursor: pointer" />
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+  </body>
+</html>
