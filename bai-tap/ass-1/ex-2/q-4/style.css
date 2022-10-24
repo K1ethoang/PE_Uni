@@ -1,0 +1,32 @@
+.heading {
+  text-align: center;
+}
+
+fieldset {
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  max-width: 700px;
+}
+
+.form {
+}
+
+.required {
+  display: block;
+}
+
+.required label::after {
+  content: "*";
+  font-size: 14px;
+  margin-left: 4px;
+  color: red;
+}
+
+.group {
+  margin-bottom: 10px;
+}
+
+.input {
+  display: block;
+}

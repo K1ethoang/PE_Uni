@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bai-2.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td><input type="text" id="name" /></td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td>
+          <input value="Male" type="radio" name="sex" /> Male
+          <br />
+          <input value="Female" type="radio" name="sex" />
+          Female
+        </td>
+      </tr>
+      <tr>
+        <td>Eye color</td>
+        <td>
+          <select id="selects" name="eye-color">
+            <option value="Green">Green</option>
+            <option value="Red">Red</option>
+            <option value="Black">Black</option>
+            <option value="Bronw">Brown</option>
+            <option value="Blue">Blue</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Check all that apply</td>
+        <td>
+          <input type="checkbox" value="Over 6 feet tall" class="checkBox1" />
+          Over 6 feet tall
+          <br />
+          <input type="checkbox" value="Over 200 pounds" class="checkBox2" />
+          Over 200 pounds
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">Describe your athletic ability:</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input id="input__desc" type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button id="submitBtn" type="submit">Enter my information</button>
+        </td>
+      </tr>
+    </table>
+    <div class="result"></div>
+    <script src="./bai-2.js"></script>
+  </body>
+</html>

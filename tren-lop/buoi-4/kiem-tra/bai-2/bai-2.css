@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  width: 600px;
+  margin: auto;
+}
+
+table,
+th,
+td {
+  font-size: 20px;
+  border: 2px ridge #cccc;
+}
+
+th {
+  background-color: lightblue;
+}
+
+td > input,
+select {
+  border: 2px inset #cccc;
+  padding: 2px;
+}
+
+td #input__desc {
+  width: 100%;
+  padding: 30px 0;
+}
+
+td > button {
+  display: block;
+  margin: auto;
+}

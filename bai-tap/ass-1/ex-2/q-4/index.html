@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="heading">Register</h1>
+    <fieldset>
+      <legend>
+        <i>Please <b>fill in this form</b> to create an account</i>
+      </legend>
+      <form>
+        <div class="group required">
+          <label for="fullName" class="label">Full name</label>
+          <input
+            required
+            type="text"
+            id="fullName"
+            class="input"
+            placeholder="Input your fullname..."
+          />
+        </div>
+        <div class="group required">
+          <label for="userName" class="label">Username</label>
+          <input
+            required
+            type="text"
+            id="userName"
+            class="input"
+            placeholder="Input your username..."
+          />
+        </div>
+        <div class="group required">
+          <label for="password" class="label">Password</label>
+          <input
+            required
+            type="password"
+            id="password"
+            class="input"
+            placeholder="Input your password..."
+          />
+        </div>
+        <div class="group required">
+          <label for="email" class="label">Email</label>
+          <input
+            required
+            type="email"
+            id="email"
+            class="input"
+            placeholder="Input your email..."
+          />
+        </div>
+        <div class="group required">
+          <label for="phoneNumber" class="label">Phone Number</label>
+          <input
+            required
+            type="tel"
+            id="phoneNumber"
+            class="input"
+            placeholder="Input your phone number..."
+          />
+        </div>
+        <div class="group">
+          <label class="label">Input Object</label>
+          <div class="select">
+            <input type="radio" name="object" id="student" />
+            <label for="student">Student</label>
+            <input type="radio" name="object" id="teacher" />
+            <label for="teacher">Teacher</label>
+          </div>
+        </div>
+        <div class="group">
+          <label class="label">Favorite</label>
+          <div class="select">
+            <input type="checkbox" name="favorite" id="badmintion" />
+            <label for="badmintion">Badmintion</label>
+            <input type="checkbox" name="favorite" id="volleyball" />
+            <label for="volleyball">Volleyball</label>
+            <input type="checkbox" name="favorite" id="football" />
+            <label for="football">Football</label>
+          </div>
+        </div>
+        <div class="group required">
+          <label for="address" class="label">Address</label>
+          <input
+            required
+            type="text"
+            id="address"
+            class="input"
+            placeholder="Input your phone address..."
+          />
+        </div>
+        <div class="group required">
+          <label for="birthday" class="label">Birthday</label>
+          <input required type="date" id="birthday" class="input" />
+        </div>
+        <div class="group">
+          <label for="picture" class="label">Choose your picture</label>
+          <input type="file" id="picture" class="input" accept="image/*" />
+        </div>
+        <div class="group">
+          <input type="submit" value="Đăng ký" />
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>

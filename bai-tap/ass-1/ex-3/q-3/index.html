@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table,
+      th,
+      td {
+        border: 0.5px solid #000;
+        border-collapse: collapse;
+      }
+
+      table {
+        margin-bottom: 10px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    Danh sách sinh viên
+    <table>
+      <thead>
+        <tr>
+          <th>Họ tên</th>
+          <th>Ngày sinh</th>
+          <th>Giới tính</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Trần Anh Đức</td>
+          <td>03/08/1993</td>
+          <td>Nam</td>
+        </tr>
+        <tr>
+          <td>Kiều Thị Thu Hằng</td>
+          <td>04/09/1991</td>
+          <td>Nữ</td>
+        </tr>
+        <tr>
+          <td>Vương Thị Lê Na</td>
+          <td>06/09/1991</td>
+          <td>Nữ</td>
+        </tr>
+      </tbody>
+    </table>
+    Danh sách sinh viên v2
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">STT</th>
+          <th rowspan="2">Họ tên</th>
+          <th colspan="2">Giới tính</th>
+          <th rowspan="2">Chức vụ</th>
+        </tr>
+        <tr>
+          <th>Nam</th>
+          <th>Nữ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Trần Đức Anh</td>
+          <td>X</td>
+          <td></td>
+          <td>Lớp trưởng</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Kiều Thị Thu Hằng</td>
+          <td></td>
+          <td>X</td>
+          <td>Lớp phó</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Vương Thị Lê Na</td>
+          <td></td>
+          <td>X</td>
+          <td>Tổ viên</td>
+        </tr>
+      </tbody>
+    </table>
+    Danh sách sinh viên v3
+    <table>
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Họ tên</th>
+          <th>GVHD</th>
+          <th>Lịch gặp GVHD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Nguyễn Thị Thu Trang</td>
+          <td rowspan="3">Th.S Hồ Sỹ Tuy Đức</td>
+          <td rowspan="3">08/03/2018</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Nguyễn Thị Diễm</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Phạm Thị Hồng Đào</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Nguyễn Thị Kim Sa</td>
+          <td rowspan="2">Th.S Phạm Thị Huyền Quyên</td>
+          <td rowspan="2">05/03/2018</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Lê Thị Trang</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Bảng điểm lớp 9B</th>
+          <th rowspan="2">Toán</th>
+          <th rowspan="2">Lý</th>
+          <th rowspan="2">Hoá</th>
+        </tr>
+        <tr>
+          <th>STT</th>
+          <th>Họ tên</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Trần Đức Anh</td>
+          <td>8.5</td>
+          <td>3.0</td>
+          <td>7.75</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Kiều Thị Thu Hằng</td>
+          <td>10</td>
+          <td>9.25</td>
+          <td>5.75</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Vương Thị Lê Na</td>
+          <td>2.25</td>
+          <td>6.0</td>
+          <td>7.75</td>
+        </tr>
+        <tr>
+          <td colspan="2">Điểm trung bình cả lớp</td>
+          <td>6.9</td>
+          <td>6.0</td>
+          <td>7.1</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
