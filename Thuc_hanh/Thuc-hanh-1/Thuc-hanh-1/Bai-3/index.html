@@ -1,66 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Shop Around</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="boundary">
-    <!-- begin main -->
-    <div id="main">
-      <div id="left">
-        <!-- begin category -->
-        
-        <!-- end category -->
-        
-        <!-- begin search -->
-        <div class="search">
-          <div class="title">Search by</div>
-          <div class="content">
-            <form action="">
-              <label for="key">Keyword</label>
-              <input type="text" name="key" id="key"> <br>
-              <label for="cat">Category</label>
-              <select name="" id="cat" name="cat">
-                <option value="">--Select category--</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-              </select>
-              <label for="from">Price</label>
-              <input type="text" name="from" id="from" size="5"> to <input type="text" name="to" id="to" size="5"> <br>
-              <input type="submit" value="search" name="submit" id="submit">
-            </form>
-            <div> 
-              <img src="images/bul.gif" alt=""> 
-              <a href="#">Advanced search</a>
-            </div>
-            <div>
-              <img src="images/bul.gif" alt="">
-              <a href="#">Contact customer support</a>
+  <head>
+    <title>Shop Around</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="boundary">
+      <!-- begin main -->
+      <div id="main">
+        <div id="left">
+          <!-- begin category -->
+          <div class="category">
+            <div class="title">Category</div>
+            <div class="content">
+              <ul class="category-list">
+                <li>
+                  <img src="./images/cat.gif" alt="" />
+                  <a href="#">Category 1</a>
+                </li>
+                <li>
+                  <img src="./images/cat.gif" alt="" />
+                  <a href="#">Category 2</a>
+                </li>
+                <li>
+                  <img src="./images/cat.gif" alt="" />
+                  <a href="#">Category 3</a>
+                </li>
+                <li>
+                  <img src="./images/cat.gif" alt="" />
+                  <a href="#">Category 4</a>
+                </li>
+                <li>
+                  <img src="./images/cat.gif" alt="" />
+                  <a href="#">Category 5</a>
+                </li>
+                <li>
+                  <img src="./images/cat.gif" alt="" />
+                  <a href="#">Category 6</a>
+                </li>
+                <li>
+                  <img src="./images/cat.gif" alt="" />
+                  <a href="#">Category 7</a>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
-        <!-- end search -->
+          <!-- end category -->
 
-        
-      </div>
-      <div id="right">
-        <!-- begin slider -->
-        <div class="slider">
-          <img src="images/slide1.jpg" alt="">
+          <!-- begin search -->
+          <div class="search">
+            <div class="title">Search by</div>
+            <div class="content">
+              <form action="">
+                <label for="key">Keyword</label>
+                <input type="text" name="key" id="key" /> <br />
+                <label for="cat">Category</label>
+                <select name="" id="cat" name="cat">
+                  <option value="">--Select category--</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+                <label for="from">Price</label>
+                <input type="text" name="from" id="from" size="5" /> to
+                <input type="text" name="to" id="to" size="5" /> <br />
+                <input type="submit" value="search" name="submit" id="submit" />
+              </form>
+              <div>
+                <img src="images/bul.gif" alt="" />
+                <a href="#">Advanced search</a>
+              </div>
+              <div>
+                <img src="images/bul.gif" alt="" />
+                <a href="#">Contact customer support</a>
+              </div>
+            </div>
+          </div>
+          <!-- end search -->
         </div>
-        <!-- end slider -->
+        <div id="right">
+          <!-- begin slider -->
+          <div class="slider">
+            <img src="images/slide1.jpg" alt="" />
+          </div>
+          <!-- end slider -->
+        </div>
       </div>
-    </div>
-    <!-- end main -->
+      <!-- end main -->
 
-    <!-- begin footer -->
-    <div id="footer">
-      <p><a href="#">Home</a> <span>|</span> <a href="#">Support</a> <span>|</span> <a href="#">Account</a> <span>|</span> <a href="#">Store</a> <span>|</span> <a href="#">Contact</a></p>
+      <!-- begin footer -->
+      <div id="footer">
+        <p>
+          <a href="#">Home</a> <span>|</span> <a href="#">Support</a>
+          <span>|</span> <a href="#">Account</a> <span>|</span>
+          <a href="#">Store</a> <span>|</span> <a href="#">Contact</a>
+        </p>
+      </div>
+      <!-- end footer -->
     </div>
-    <!-- end footer -->
-  </div>
-</body>
+
+    <script src="./js/script.js"></script>
+  </body>
 </html>
